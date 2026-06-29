@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #C5A880;
+  --color-primary-dark: #A88F68;
+  --color-primary-light: #DFCDA7;
+  --color-gold: #D4AF37;
+  --color-rose-gold: #B76E79;
+  --color-rose-gold-light: #E0B0FF;
+  --color-soft-pink: #FFF0F2;
+  --color-champagne: #FAF6F0;
+  --color-luxury-black: #111111;
+  --color-luxury-dark: #1A1A1A;
+  --color-luxury-gray: #2D2D2D;
+  --color-luxury-light-gray: #7E7E7E;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A880;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8976b;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #FAF9F6;
+  color: #111111;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FAF9F6;
+}
+
+/* Glassmorphism Classes */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.glassmorphism-dark {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(197, 168, 128, 0.2);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #DFCDA7 0%, #C5A880 50%, #A88F68 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #EAD6B3 0%, #C5A880 50%, #A88F68 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Swiper Styles */
+.swiper-pagination-bullet-active {
+  background: #C5A880 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #C5A880 !important;
+}
