@@ -42,7 +42,7 @@ const OfferToast = () => {
               <span className="text-[10px] text-primary uppercase tracking-widest font-bold">Limited Offer</span>
               <h5 className="font-serif font-bold text-xs md:text-sm text-white">First-Time Guest Discount</h5>
               <p className="text-white/60 text-[10px] md:text-xs font-light leading-relaxed">
-                Get a complimentary blowdry or skin clean-up on your first booking above ₹3,000 using code <strong className="text-primary">BARCA10ST</strong>.
+                Get a complimentary blowdry or skin clean-up on your first booking above ₹3,000 using code <strong className="text-primary">VOLUME1ST</strong>.
               </p>
               <Link 
                 to="/booking" 
