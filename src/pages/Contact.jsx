@@ -34,22 +34,22 @@ const Contact = () => {
   const contactSchema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact L'Élite Aura",
-    "description": "Get in touch with L'Élite Aura - Luxury Salon & Spa. Phone, Email, Address, Map and business hours.",
-    "url": "https://eliteaura.com/contact"
+    "name": "Contact Barça 10 Salon",
+    "description": "Get in touch with Barça 10 Salon & Spa in Samastipur, Bihar. Phone, Email, Address, Map and business hours.",
+    "url": "https://barca10salon.com/contact"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="Contact Us" description="Reach out to L'Élite Aura for bookings, collaborations or inquiries." schema={contactSchema} />
+      <SEO title="Contact Us" description="Reach out to Barça 10 Salon in Samastipur, Bihar for bookings, consultations, or inquiries." schema={contactSchema} />
       
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="text-center mb-16">
           <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">Get In Touch</span>
-          <h1 className="font-serif text-3xl md:text-5xl font-bold mt-2">Contact L'Élite Aura</h1>
+          <h1 className="font-serif text-3xl md:text-5xl font-bold mt-2">Contact Barça 10 Salon</h1>
           <p className="text-luxury-light-gray dark:text-white/60 text-xs md:text-sm font-light mt-4 max-w-lg mx-auto leading-relaxed">
-            Have questions about our services or need help planning a bridal styling? Contact us or drop a message below.
+            Have questions about our treatments or need help booking a bridal styling or tattoo consultation? Contact us or drop a message below.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-serif font-bold text-luxury-black dark:text-white text-sm uppercase tracking-wider mb-2">Location</h4>
                   <p className="text-luxury-light-gray dark:text-white/60 text-xs font-light leading-relaxed">
-                    102, Luxury Arcade, Opp. Carter Road,<br />Bandra West, Mumbai - 400050
+                    1st Floor, No. 205, Ghosh Ln,<br />Gudari Bazar, Samastipur, Bihar - 848101
                   </p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-serif font-bold text-luxury-black dark:text-white text-sm uppercase tracking-wider mb-2">Salon Hours</h4>
                   <p className="text-luxury-light-gray dark:text-white/60 text-xs font-light leading-relaxed">
-                    Mon - Sat: 10 AM - 8 PM<br />Sun: 10 AM - 5 PM
+                    Mon - Sun: 10:00 AM - 9:00 PM<br />Open Seven Days a Week
                   </p>
                 </div>
               </div>
@@ -92,11 +92,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-serif font-bold text-luxury-black dark:text-white text-sm uppercase tracking-wider mb-2">Phone</h4>
-                  <a href="tel:+919876543210" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
-                    +91 98765 43210
+                  <a href="tel:+919654399680" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
+                    +91 96543 99680
                   </a>
-                  <a href="tel:+912226543210" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
-                    +91 22 2654 3210
+                  <a href="tel:09654399680" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
+                    096543 99680
                   </a>
                 </div>
               </div>
@@ -108,11 +108,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-serif font-bold text-luxury-black dark:text-white text-sm uppercase tracking-wider mb-2">Email</h4>
-                  <a href="mailto:info@eliteaura.com" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
-                    info@eliteaura.com
+                  <a href="mailto:info@barca10salon.com" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
+                    info@barca10salon.com
                   </a>
-                  <a href="mailto:booking@eliteaura.com" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
-                    booking@eliteaura.com
+                  <a href="mailto:booking@barca10salon.com" className="text-luxury-light-gray dark:text-white/60 hover:text-primary dark:hover:text-primary text-xs font-light leading-relaxed block transition-colors duration-300">
+                    booking@barca10salon.com
                   </a>
                 </div>
               </div>
@@ -122,8 +122,8 @@ const Contact = () => {
             {/* Embedded Google Map */}
             <div className="w-full h-80 md:h-[350px] rounded-3xl overflow-hidden shadow-md border border-primary/15 dark:border-primary/20 relative">
               <iframe
-                title="L'Élite Aura Salon Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.1892543956976!2d72.82229567582531!3d19.0554526526117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c95e1e479ab7%3A0xe6bf4dc12574e4c2!2sCarter%20Rd%2C%20Bandra%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                title="Barça 10 Salon Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.1834928135897!2d85.78201477543256!3d25.863384577286125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed81a1795c6f37%3A0x6e9f1a2656910606!2sGudari%20Bazar%20Road%2C%20Samastipur%2C%20Bihar%20848101!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 className="absolute inset-0 w-full h-full border-0"
                 allowFullScreen=""
                 loading="lazy"

@@ -58,37 +58,31 @@ const Home = () => {
   const homeSchema = {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
-    "name": "L'Élite Aura - Luxury Salon & Spa",
-    "image": "https://eliteaura.com/assets/hero_bg.jpg",
-    "priceRange": "₹₹₹",
-    "telephone": "+919876543210",
+    "name": "Barça 10 Salon - Luxury Salon, Spa & Makeup Studio",
+    "image": "https://barca10salon.com/assets/hero_bg.jpg",
+    "priceRange": "₹₹",
+    "telephone": "+919654399680",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "102, Luxury Arcade, Opp. Carter Road, Bandra West",
-      "addressLocality": "Mumbai",
-      "addressRegion": "Maharashtra",
-      "postalCode": "400050",
+      "streetAddress": "1st Floor, No. 205, Ghosh Ln, Gudari Bazar, Ward No - 17",
+      "addressLocality": "Samastipur",
+      "addressRegion": "Bihar",
+      "postalCode": "848101",
       "addressCountry": "IN"
     },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "10:00",
-        "closes": "20:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Sunday",
-        "opens": "10:00",
-        "closes": "17:00"
+        "closes": "21:00"
       }
     ]
   };
 
   return (
     <div className="bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="Premium Beauty Parlor & Salon Bandra" description="L'Élite Aura is Bandra's premium beauty destination for bridal makeup, hair styling, skin spa and custom nail art. Experience organic wellness." schema={homeSchema} />
+      <SEO title="Best Beauty Parlor & Salon in Samastipur, Bihar" description="Barça 10 Salon & Spa is Samastipur's premium beauty destination for bridal makeup, hair styling, skin care, gel nails, and custom tattoos by Viking Tattoos. 4.8★ rated with 2,185+ reviews." schema={homeSchema} />
 
       {/* 1. HERO SECTION */}
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
@@ -108,7 +102,7 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             className="text-primary text-xs md:text-sm uppercase tracking-[0.4em] font-semibold"
           >
-            Welcome to L'Élite Aura
+            Welcome to Barça 10 Salon
           </motion.span>
 
           <motion.h1 
@@ -127,7 +121,7 @@ const Home = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="max-w-2xl text-white/80 text-sm md:text-lg font-light leading-relaxed tracking-wide"
           >
-            Indulge in a premium salon experience customized to highlight your unique grace. Award-winning bridal styling, advanced hair chemistry, and organic spa wellness.
+            Experience premium salon care customized to highlight your unique grace. Serving Samastipur since 2004 with certified hair chemistry, luxury bridal makeovers, and professional body art by Viking Tattoos.
           </motion.p>
 
           <motion.div 
@@ -141,12 +135,12 @@ const Home = () => {
                 Book Appointment
               </Button>
             </Link>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto cursor-pointer">
+            <a href="https://wa.me/919654399680" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto cursor-pointer">
               <Button variant="secondary" className="w-full sm:w-auto" icon={<FaWhatsapp className="text-lg" />}>
                 WhatsApp Us
               </Button>
             </a>
-            <a href="tel:+919876543210" className="w-full sm:w-auto cursor-pointer">
+            <a href="tel:+919654399680" className="w-full sm:w-auto cursor-pointer">
               <Button variant="dark" className="w-full sm:w-auto" icon={<FiPhone />}>
                 Call Now
               </Button>
@@ -179,22 +173,22 @@ const Home = () => {
 
         {/* Right Side: Philosophy */}
         <div className="flex flex-col gap-6">
-          <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">About L'Élite Aura</span>
+          <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">About Barça 10 Salon</span>
           <h2 className="font-serif text-3xl md:text-5xl font-bold">Accentuate Your Natural Elegance</h2>
           <p className="text-luxury-gray dark:text-white/80 text-xs md:text-sm font-light leading-relaxed">
-            Established in 2012, L'Élite Aura represents the zenith of premium aesthetic wellness. Located in Bandra, Mumbai, our mission is to deliver customized beauty experiences with uncompromising quality, impeccable hygiene, and luxurious comfort.
+            Established in 2004, Barça 10 Salon represents the zenith of premium aesthetic wellness in Samastipur, Bihar. Our mission is to deliver customized beauty experiences with uncompromising quality, impeccable hygiene, and luxurious comfort.
           </p>
           <p className="text-luxury-light-gray dark:text-white/60 text-xs md:text-sm font-light leading-relaxed">
-            Our beauty philosophy is simple: we believe styling should elevate, not mask, your natural contours. By combining state-of-the-art styling technologies with world-renowned organic products, our specialists craft radiant, long-lasting looks that build lifelong trust.
+            Our beauty philosophy is simple: we believe styling should elevate, not mask, your natural contours. By combining state-of-the-art styling technologies with world-renowned organic products, our specialists craft radiant, long-lasting looks that build lifelong trust. We are proudly a women-owned business.
           </p>
           
           <div className="grid grid-cols-2 gap-6 mt-4">
             <div className="flex flex-col border-l-2 border-primary pl-4">
-              <span className="font-serif text-3xl font-bold text-primary-dark dark:text-primary-light">14+</span>
+              <span className="font-serif text-3xl font-bold text-primary-dark dark:text-primary-light">20+</span>
               <span className="text-[10px] text-luxury-light-gray dark:text-white/40 uppercase tracking-widest mt-1">Years of Experience</span>
             </div>
             <div className="flex flex-col border-l-2 border-primary pl-4">
-              <span className="font-serif text-3xl font-bold text-primary-dark dark:text-primary-light">12k+</span>
+              <span className="font-serif text-3xl font-bold text-primary-dark dark:text-primary-light">25k+</span>
               <span className="text-[10px] text-luxury-light-gray dark:text-white/40 uppercase tracking-widest mt-1">Happy Clients</span>
             </div>
           </div>
@@ -216,16 +210,18 @@ const Home = () => {
           </div>
 
           {/* Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
             {/* Service 1 */}
             <div className="bg-champagne dark:bg-luxury-black/50 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-primary/10 dark:border-primary/20 flex flex-col justify-between">
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={bridalMakeup} alt="Bridal makeup" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Makeup</span>
-                <h3 className="font-serif text-lg font-bold mt-1 mb-2">Bridal Makeup & Draping</h3>
-                <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Complete luxury bridal makeover including saree/lehenga draping, hair design, and lash extensions.</p>
+              <div className="p-6 flex flex-col flex-grow justify-between">
+                <div>
+                  <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Makeup</span>
+                  <h3 className="font-serif text-lg font-bold mt-1 mb-2">Bridal Makeup & Draping</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Complete luxury bridal makeover including saree/lehenga draping, hair design, and lash extensions.</p>
+                </div>
                 <div className="flex items-center justify-between border-t border-primary/10 dark:border-primary/20 pt-4">
                   <span className="font-serif font-bold text-primary-dark dark:text-primary">₹15,000</span>
                   <Link to="/booking?service=Bridal%20Makeup%20%26%20Styling" className="cursor-pointer">
@@ -240,10 +236,12 @@ const Home = () => {
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={hairSalon} alt="Hair cut styling" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Hair</span>
-                <h3 className="font-serif text-lg font-bold mt-1 mb-2">Signature Haircut & Blowdry</h3>
-                <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Personalized wash, style analysis, signature cut, and standard luxury blowout styling.</p>
+              <div className="p-6 flex flex-col flex-grow justify-between">
+                <div>
+                  <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Hair</span>
+                  <h3 className="font-serif text-lg font-bold mt-1 mb-2">Signature Haircut & Blowdry</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Personalized wash, style analysis, signature cut, and standard luxury blowout styling.</p>
+                </div>
                 <div className="flex items-center justify-between border-t border-primary/10 dark:border-primary/20 pt-4">
                   <span className="font-serif font-bold text-primary-dark dark:text-primary">₹1,500</span>
                   <Link to="/booking?service=Signature%20Haircut%20%26%20Blowdry" className="cursor-pointer">
@@ -258,13 +256,35 @@ const Home = () => {
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={nailArt} alt="Nail extensions art" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Nails</span>
-                <h3 className="font-serif text-lg font-bold mt-1 mb-2">Gel Extensions & Nail Art</h3>
-                <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Premium acrylic or gel extensions customized with elegant custom hand-painted layouts.</p>
+              <div className="p-6 flex flex-col flex-grow justify-between">
+                <div>
+                  <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Nails</span>
+                  <h3 className="font-serif text-lg font-bold mt-1 mb-2">Gel Extensions & Nail Art</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Premium acrylic or gel extensions customized with elegant custom hand-painted layouts.</p>
+                </div>
                 <div className="flex items-center justify-between border-t border-primary/10 dark:border-primary/20 pt-4">
                   <span className="font-serif font-bold text-primary-dark dark:text-primary">₹2,800</span>
                   <Link to="/booking?service=Luxury%20Gel%20Extensions%20%26%20Nail%20Art" className="cursor-pointer">
+                    <Button variant="secondary" className="text-[10px] px-4 py-2">Book Now</Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Service 4: Viking Tattoos */}
+            <div className="bg-champagne dark:bg-luxury-black/50 rounded-3xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-primary/10 dark:border-primary/20 flex flex-col justify-between">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1590246814883-57f511e76523?w=600" alt="Viking Custom Tattoo" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+              <div className="p-6 flex flex-col flex-grow justify-between">
+                <div>
+                  <span className="text-primary text-[10px] uppercase font-bold tracking-widest">Body Art</span>
+                  <h3 className="font-serif text-lg font-bold mt-1 mb-2">Viking Tattoos</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Premium custom tattoos and sterile body piercings by Viking Tattoos inside our salon premises.</p>
+                </div>
+                <div className="flex items-center justify-between border-t border-primary/10 dark:border-primary/20 pt-4">
+                  <span className="font-serif font-bold text-primary-dark dark:text-primary">₹3,000+</span>
+                  <Link to="/booking?service=Custom%20Body%20Tattoo" className="cursor-pointer">
                     <Button variant="secondary" className="text-[10px] px-4 py-2">Book Now</Button>
                   </Link>
                 </div>
@@ -364,8 +384,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
           
           <div className="text-center mb-16">
-            <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">Aura Philosophy</span>
-            <h2 className="font-serif text-3xl md:text-5xl font-bold mt-2">Why Choose L'Élite Aura?</h2>
+            <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">Salon Philosophy</span>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold mt-2">Why Choose Barça 10 Salon?</h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

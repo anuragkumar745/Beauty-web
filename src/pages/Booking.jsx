@@ -67,13 +67,13 @@ const Booking = () => {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Book an Appointment",
-    "description": "Book a premium hair styling, bridal makeup, or spa session at L'Élite Aura.",
-    "url": "https://eliteaura.com/booking"
+    "description": "Book a premium hair styling, bridal makeup, spa session or tattoo consultation at Barça 10 Salon.",
+    "url": "https://barca10salon.com/booking"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="Book Appointment" description="Book your beauty treatment online at L'Élite Aura." schema={bookingSchema} />
+      <SEO title="Book Appointment" description="Book your beauty treatment or body art consultation online at Barça 10 Salon." schema={bookingSchema} />
       
       <div className="max-w-3xl mx-auto px-6">
         
@@ -102,7 +102,7 @@ const Booking = () => {
             </p>
             <div className="flex flex-col gap-3">
               <a 
-                href={`https://wa.me/919876543210?text=Hi%20L'Élite%20Aura!%20I%20just%20submitted%20a%20booking%20request%20for%20${encodeURIComponent(formData.service)}%20on%20${formData.date}%20at%20${formData.time}.`}
+                href={`https://wa.me/919654399680?text=Hi%20Bar%C3%A7a%2010%20Salon!%20I%20just%20submitted%20a%20booking%20request%20for%20${encodeURIComponent(formData.service)}%20on%20${formData.date}%20at%20${formData.time}.`}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full block font-medium"

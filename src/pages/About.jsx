@@ -11,10 +11,10 @@ import hairSalon from '../assets/hair_salon.jpg';
 
 const About = () => {
   const stats = [
-    { value: "14+", label: "Years of Experience" },
-    { value: "12k+", label: "Happy Clients" },
-    { value: "35+", label: "Luxury Treatments" },
-    { value: "4.9", label: "Google Rating" }
+    { value: "22+", label: "Years of Experience" },
+    { value: "25k+", label: "Happy Clients" },
+    { value: "40+", label: "Luxury Treatments" },
+    { value: "4.8", label: "Google Rating" }
   ];
 
   const pillars = [
@@ -25,7 +25,7 @@ const About = () => {
     },
     {
       title: "Our Vision",
-      desc: "To remain the standard-bearer for luxury salon and spa experiences in Mumbai, continuously refining our skills with global beauty innovations and sustainable, organic practices.",
+      desc: "To remain the standard-bearer for luxury salon and spa experiences in Samastipur, Bihar, continuously refining our skills with global beauty innovations and sustainable practices.",
       icon: <FiEye className="text-3xl text-primary" />
     },
     {
@@ -38,17 +38,17 @@ const About = () => {
   const advantages = [
     {
       title: "Globally Certified Artisans",
-      desc: "Our stylists are trained at world-renowned academies like Vidal Sassoon London and Paris Academy of Beauty.",
+      desc: "Our stylists are trained at leading national and international academies, bringing high-fashion beauty directly to Bihar.",
       icon: <FiAward />
     },
     {
-      title: "Luxury Organic Brands",
-      desc: "We exclusively formulate and style using premium, dermatologically verified brands (MAC, Dermalogica, Forest Essentials).",
+      title: "Luxury Premium Brands",
+      desc: "We exclusively formulate and style using premium, dermatologically verified brands (L'Oréal Professional, MAC, Kryolan).",
       icon: <FiHeart />
     },
     {
       title: "Hospital-Grade Hygiene",
-      desc: "Rigorous sanitization of workspace, autoclaving of tools, and single-use kits for skin and hair treatments.",
+      desc: "Rigorous sanitization of workspace, autoclaving of tools, and single-use kits for skin and hair treatments. 100% hygiene priority.",
       icon: <FiShield />
     },
     {
@@ -61,14 +61,14 @@ const About = () => {
   const aboutSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About L'Élite Aura - Luxury Salon & Spa",
-    "description": "Learn about our founding history, mission, vision, and why we are Bandra's preferred luxury beauty parlour.",
-    "url": "https://eliteaura.com/about"
+    "name": "About Barça 10 Salon - Luxury Spa, Nails & Makeup Studio",
+    "description": "Learn about our founding history since 2004, mission, vision, and why we are Samastipur's preferred luxury beauty salon.",
+    "url": "https://barca10salon.com/about"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="About Us" description="Discover L'Élite Aura's philosophy, story, and dedication to luxury beauty treatments." schema={aboutSchema} />
+      <SEO title="About Us" description="Discover Barça 10 Salon's philosophy, story, and dedication to luxury beauty treatments since 2004." schema={aboutSchema} />
 
       {/* Mini Hero Banner */}
       <section className="relative py-20 md:py-28 overflow-hidden bg-luxury-black text-white border-b border-primary/20">
@@ -95,7 +95,7 @@ const About = () => {
             transition={{ delay: 0.4 }}
             className="max-w-2xl text-white/70 text-xs md:text-base font-light leading-relaxed tracking-wide"
           >
-            Since 2012, L'Élite Aura has served as Bandra's premier aesthetic sanctuary, fusing signature salon artistry with organic spa wellness.
+            Since 2004, Barça 10 Salon has served as Samastipur's premier aesthetic sanctuary, fusing signature salon artistry, nail couture, and organic spa wellness.
           </motion.p>
         </div>
       </section>
@@ -109,10 +109,10 @@ const About = () => {
             Crafting Grace and Luxury
           </h2>
           <p className="text-luxury-gray dark:text-white/80 text-xs md:text-sm font-light leading-relaxed">
-            L'Élite Aura was founded in Mumbai with a singular ambition: to elevate salon services from routine grooming to a luxurious ritual of self-love. What started as a boutique styling station in Bandra has grown into a highly trusted sanctuary for luxury skincare, celebrity makeovers, and custom nail chemistry.
+            Barça 10 Salon was founded in Samastipur, Bihar with a singular ambition: to elevate salon services from routine grooming to a luxurious ritual of self-love. What started as a boutique styling station in Gudari Bazar has grown into a highly trusted, women-owned sanctuary for luxury skincare, bridal makeovers, custom nail chemistry, and professional body art.
           </p>
           <p className="text-luxury-light-gray dark:text-white/60 text-xs md:text-sm font-light leading-relaxed">
-            We reject the assembly-line approach. Every client who walks through our doors is treated to a personalized consult. We study your facial anatomy, hair texture, skin undertones, and lifestyle to create styles that reflect your identity. Our team regularly completes masterclasses in Paris, London, and Tokyo to bring the latest global trends directly to Bandra.
+            We reject the assembly-line approach. Every client who walks through our doors is treated to a personalized consult. We study your facial anatomy, hair texture, skin undertones, and lifestyle to create styles that reflect your identity. Our team regularly participates in national and international beauty masterclasses to bring the latest global trends directly to Samastipur. We also host Viking Tattoos, our premium in-house body art and piercing studio.
           </p>
 
           {/* Stats Grid */}
@@ -170,7 +170,7 @@ const About = () => {
       <section className="py-24 max-w-7xl mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <span className="text-primary text-xs uppercase tracking-[0.3em] font-bold">Our Distinctions</span>
-          <h2 className="font-serif text-3xl md:text-5xl font-bold mt-2">Why Clients Trust Aura</h2>
+          <h2 className="font-serif text-3xl md:text-5xl font-bold mt-2">Why Clients Trust Barça 10</h2>
           <p className="text-luxury-light-gray dark:text-white/60 text-xs md:text-sm font-light mt-4 max-w-md mx-auto leading-relaxed">
             We understand you have choices. That's why we maintain the highest standards of safety, quality ingredients, and elite training.
           </p>
@@ -204,13 +204,13 @@ const About = () => {
             <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">Ready to feel pampered?</span>
             <h2 className="font-serif text-3xl md:text-5xl font-bold uppercase tracking-wide">Experience Pure Serenity</h2>
             <p className="text-white/70 text-xs md:text-sm font-light leading-relaxed">
-              Step into Bandra's finest beauty parlour today. Connect with us to reserve a premium bridal package, hair chemistry consultation, or custom skin analysis.
+              Step into Samastipur's finest beauty parlour today. Connect with us to reserve a premium bridal package, hair chemistry consultation, or custom skin analysis.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
               <Link to="/booking" className="w-full sm:w-auto">
                 <Button variant="primary" className="w-full sm:w-auto">Book An Appointment</Button>
               </Link>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <a href="https://wa.me/919654399680" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 <Button variant="secondary" className="w-full sm:w-auto">WhatsApp Consultation</Button>
               </a>
             </div>

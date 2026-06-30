@@ -30,7 +30,7 @@ const FloatingActions = () => {
     {
       id: 'whatsapp',
       icon: <FaWhatsapp className="text-2xl" />,
-      href: "https://wa.me/919876543210?text=Hello%20L'Élite%20Aura%20Salon,%20I%20would%20like%20to%20book%20an%20appointment.",
+      href: "https://wa.me/919654399680?text=Hello%20Bar%C3%A7a%2010%20Salon,%20I%20would%20like%20to%20book%20an%20appointment.",
       bgColor: 'bg-[#25D366]',
       hoverColor: 'hover:bg-[#20ba5a]',
       textColor: 'text-white',
@@ -40,7 +40,7 @@ const FloatingActions = () => {
     {
       id: 'call',
       icon: <FiPhone className="text-xl" />,
-      href: 'tel:+919876543210',
+      href: 'tel:+919654399680',
       bgColor: 'bg-primary',
       hoverColor: 'hover:bg-primary-dark',
       textColor: 'text-luxury-black',

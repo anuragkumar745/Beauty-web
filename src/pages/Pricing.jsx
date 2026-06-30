@@ -10,59 +10,72 @@ const Pricing = () => {
 
   const combos = [
     {
-      title: "Bridal Radiance HD Package",
-      subtitle: "The ultimate bridal styling registry",
-      price: "18,000",
+      title: "Bridal Package",
+      subtitle: "Bespoke styling registry for brides",
+      price: "15,000",
       features: [
         "Flawless HD Bridal Makeup",
         "Designer Hair Styling & Accessory Placement",
         "Traditional Saree or Lehenga Draping",
         "Luxury Gel Extensions & Nail Art",
-        "Radiance Gold Facial & Clean-up",
-        "Complimentary trial & consultation"
+        "Complimentary trials & consult session"
+      ],
+      tag: "Traditional Elite",
+      gradient: false
+    },
+    {
+      title: "Luxury Package",
+      subtitle: "The ultimate full-service pampering",
+      price: "22,000",
+      features: [
+        "Premium HD Bridal Makeup (Trial Included)",
+        "Bridal Hair Couture & Accessories",
+        "Luxury Pre-Bridal Hydra Facial & Clean-up",
+        "Royal Spa Pedicure & Manicure",
+        "Deep Nourishing Hair Spa or Smoothing",
+        "Lehenga Draping & Veil Placement"
       ],
       tag: "Most Popular",
       gradient: true
     },
     {
-      title: "Aura Groom Styling Package",
-      subtitle: "Bespoke look for the modern groom",
-      price: "8,000",
+      title: "Premium Package",
+      subtitle: "Full-body restoration & style",
+      price: "6,500",
       features: [
-        "Signature Haircut & Nourishing Wash",
-        "Beard Spa & Premium Shave / Trim",
-        "Hydra Cleansing & Tan Removal",
-        "Soothing Head & Shoulder Massage",
-        "Grooming & styling consulting"
-      ],
-      tag: "For Grooms",
-      gradient: false
-    },
-    {
-      title: "Ultimate Renewal Ritual",
-      subtitle: "Full-body restoration therapy",
-      price: "7,500",
-      features: [
+        "Global Hair Color or Advanced Haircut",
         "Deep Nourishing Hair Spa & Steam",
         "Luxury Radiance Gold Facial",
-        "Royal Pedicure & Manicure Spa",
-        "Aromatherapy head & foot massage"
+        "Standard Gel Overlay Manicure"
       ],
       tag: "Wellness Combo",
       gradient: false
     },
     {
-      title: "Classic Party Glow Bundle",
-      subtitle: "Cocktail or reception-ready look",
-      price: "6,000",
+      title: "Basic Package",
+      subtitle: "Essential salon styling & care",
+      price: "2,500",
       features: [
-        "Classic Party Makeup (MAC/Bobbi Brown)",
-        "Signature Blowdry & Styling",
-        "Standard Gel Overlay Manicure",
-        "Eyelash curling & lash styling"
+        "Signature Haircut & Blowdry",
+        "Deep Cleansing Facial Cleanup",
+        "Eyebrow Threading & Upper Lip",
+        "Nail shaping & classic polish paint"
       ],
-      tag: "Event Bundle",
+      tag: "Daily Glam",
       gradient: false
+    },
+    {
+      title: "Viking Tattoo Combo",
+      subtitle: "Premium body art & piercing package",
+      price: "5,000",
+      features: [
+        "Custom 3-inch Body Tattoo (Black & Grey)",
+        "Sterile Ear or Nose Piercing",
+        "Premium Titanium/Hypoallergenic Starter Studs",
+        "Professional aftercare kit & consultation"
+      ],
+      tag: "Viking Special",
+      gradient: true
     }
   ];
 
@@ -89,12 +102,16 @@ const Pricing = () => {
       { name: "Luxury Gel Extensions & Nail Art", price: "2,800", duration: "90 mins" },
       { name: "Royal Pedicure & Manicure Spa", price: "3,000", duration: "80 mins" },
       { name: "Bridal & Designer Mehendi", price: "4,000", duration: "120 mins" }
+    ]},
+    { category: "Tattoo & Piercing Artistry (Viking)", items: [
+      { name: "Custom Body Tattoo", price: "3,000 onwards", duration: "Varies" },
+      { name: "Safe Piercing Session", price: "1,500", duration: "30 mins" }
     ]}
   ];
 
   const memberships = [
     {
-      title: "Gold Aura Member",
+      title: "Gold Barça Member",
       cost: "15,000",
       validity: "12 Months Validity",
       benefits: [
@@ -105,7 +122,7 @@ const Pricing = () => {
       ]
     },
     {
-      title: "Platinum Elite Club",
+      title: "Platinum Barça Elite Club",
       cost: "30,000",
       validity: "12 Months Validity",
       benefits: [
@@ -119,20 +136,20 @@ const Pricing = () => {
 
   const discounts = [
     { title: "Festive Radiance Offer", desc: "Enjoy flat 15% off on all Combo Packages during the wedding season.", code: "FESTIVE15" },
-    { title: "First-Time Guest Offer", desc: "Get a complimentary blowdry or skin clean-up on your first booking above ₹3,000.", code: "AURA1ST" }
+    { title: "First-Time Guest Offer", desc: "Get a complimentary blowdry or skin clean-up on your first booking above ₹3,000.", code: "BARCA1ST" }
   ];
 
   const pricingSchema = {
     "@context": "https://schema.org",
     "@type": "PriceSpecification",
-    "name": "L'Élite Aura Service Rates & Packages",
-    "description": "Premium service prices, combo wedding packages, and gold/platinum memberships at Bandra's best salon.",
+    "name": "Barça 10 Salon Service Rates & Packages",
+    "description": "Premium service prices, combo wedding packages, and gold/platinum memberships at Samastipur's best salon.",
     "priceCurrency": "INR"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="Pricing Packages & Offers" description="View L'Élite Aura pricing list. Bridal packages, combo spa offers, hair treatments, and exclusive gold memberships." schema={pricingSchema} />
+      <SEO title="Pricing Packages & Offers" description="View Barça 10 Salon pricing list. Bridal packages, combo spa offers, hair treatments, custom body art by Viking Tattoos, and exclusive memberships." schema={pricingSchema} />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}

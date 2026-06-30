@@ -5,15 +5,15 @@ const SEO = ({
   title, 
   description, 
   keywords, 
-  url = 'https://eliteaura.com', 
-  image = 'https://eliteaura.com/assets/hero_bg.jpg',
+  url = 'https://barca10salon.com', 
+  image = 'https://barca10salon.com/assets/hero_bg.jpg',
   schema 
 }) => {
-  const defaultTitle = "L'Élite Aura | Modern Premium Beauty Salon & Spa, Bandra Mumbai";
-  const defaultDescription = "Indulge in absolute luxury at L'Élite Aura. Experience premium bridal makeup, high-end hair design, custom nail art, and organic skin treatments in Bandra West, Mumbai.";
-  const defaultKeywords = "Best Beauty Parlor in Mumbai, Best Salon in Bandra, Bridal Makeup Artist in Mumbai, Hair Salon Bandra, Beauty Parlour Near Me, Facial Services Mumbai, Nail Art Salon Bandra, Bridal Makeup Mumbai";
+  const defaultTitle = "Barça 10 Salon | Spa, Nails & Makeup Studio Samastipur, Bihar";
+  const defaultDescription = "Indulge in premium beauty treatments at Barça 10 Salon in Samastipur. Established in 2004. Offering expert bridal makeup, advanced hair design, nail extensions, spa therapies, and custom Viking Tattoos. 4.8★ rated with 2,185+ reviews.";
+  const defaultKeywords = "Best Beauty Parlor in Samastipur, Best Salon in Samastipur, Ladies Salon in Samastipur, Bridal Makeup Artist Samastipur, Hair Salon Samastipur, Viking Tattoos Samastipur, Nail Art Salon Samastipur, Beauty Parlour Samastipur, Gudari Bazar Salon";
 
-  const currentTitle = title ? `${title} | L'Élite Aura` : defaultTitle;
+  const currentTitle = title ? `${title} | Barça 10 Salon` : defaultTitle;
   const currentDescription = description || defaultDescription;
   const currentKeywords = keywords || defaultKeywords;
 

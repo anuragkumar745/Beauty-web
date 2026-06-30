@@ -41,6 +41,15 @@ const teamMembers = [
     bio: "With a background in dermatology aesthetics, Elena customizes skin therapies to restore youthfulness, specializing in hydra facials and anti-aging treatments.",
     image: "https://images.unsplash.com/photo-1598550476439-6847785fce6e?w=500",
     awards: ["Best Esthetician Award - Spa India"]
+  },
+  {
+    name: "Vikram Singh (Viking)",
+    role: "Lead Tattoo Artist",
+    specialization: "Custom Ink, Dotwork, Piercing & Body Art",
+    experience: "12+ Years",
+    bio: "Founder of Viking Tattoos (in-salon partner). Highly skilled in hyper-realistic, traditional tribal, and modern minimalist line-art tattoos. Certified in aseptic sterilization protocols.",
+    image: "https://images.unsplash.com/photo-1598257006458-087169a1f08d?w=500",
+    awards: ["Best Tattoo Artist - East India Convention 2024", "Safe Piercing Certified"]
   }
 ];
 
@@ -48,14 +57,14 @@ const Team = () => {
   const teamSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "Meet the Team - L'Élite Aura",
-    "description": "Meet our certified stylists, makeup artists, and skincare experts at L'Élite Aura.",
-    "url": "https://eliteaura.com/team"
+    "name": "Meet the Team - Barça 10 Salon",
+    "description": "Meet our certified stylists, makeup artists, skincare experts, and tattoo designers at Barça 10 Salon in Samastipur.",
+    "url": "https://barca10salon.com/team"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="Meet Our Team" description="Learn about the certified beauty professionals and stylists at L'Élite Aura." schema={teamSchema} />
+      <SEO title="Meet Our Team" description="Learn about the certified beauty professionals, stylists, and body art masters at Barça 10 Salon." schema={teamSchema} />
       
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}

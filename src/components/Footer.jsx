@@ -43,10 +43,10 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <Link to="/" className="flex flex-col">
             <span className="font-serif text-2xl font-bold tracking-widest text-primary gold-text-gradient uppercase">
-              L'Élite Aura
+              Barça 10 Salon
             </span>
             <span className="text-[9px] tracking-[0.3em] text-white uppercase mt-0.5 font-light">
-              Luxury Salon & Spa
+              Spa, Nails & Makeup Studio
             </span>
           </Link>
           <p className="text-white/60 text-xs md:text-sm leading-relaxed font-light">
@@ -127,10 +127,10 @@ const Footer = () => {
             <li className="flex gap-3 items-start">
               <FiMapPin className="text-primary text-lg shrink-0 mt-0.5" />
               <div>
-                <p>102, Luxury Arcade, Opp. Carter Road,</p>
-                <p>Bandra West, Mumbai - 400050</p>
+                <p>1st Floor, No. 205, Ghosh Ln, Gudari Bazar,</p>
+                <p>Ward No - 17, Samastipur, Bihar - 848101</p>
                 <a 
-                  href="https://maps.app.goo.gl/w9nFpQd1XbVw4H9q7" 
+                  href="https://maps.google.com/?q=Barca10+Salon+Gudari+Bazar+Samastipur+Bihar+848101" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-primary hover:text-primary-light transition-colors duration-300 text-xs mt-1 block uppercase tracking-wider font-semibold cursor-pointer"
@@ -141,17 +141,17 @@ const Footer = () => {
             </li>
             <li className="flex gap-3 items-center">
               <FiPhone className="text-primary text-lg" />
-              <a href="tel:+919876543210" className="hover:text-primary transition-colors duration-300 cursor-pointer">+91 98765 43210</a>
+              <a href="tel:+919654399680" className="hover:text-primary transition-colors duration-300 cursor-pointer">+91 96543 99680</a>
             </li>
             <li className="flex gap-3 items-center">
               <FiMail className="text-primary text-lg" />
-              <a href="mailto:info@eliteaura.com" className="hover:text-primary transition-colors duration-300 cursor-pointer">info@eliteaura.com</a>
+              <a href="mailto:info@barca10salon.com" className="hover:text-primary transition-colors duration-300 cursor-pointer">info@barca10salon.com</a>
             </li>
             <li className="flex gap-3 items-start">
               <FiClock className="text-primary text-lg shrink-0 mt-0.5" />
               <div>
-                <p>Mon - Sat: 10:00 AM - 8:00 PM</p>
-                <p>Sun: 10:00 AM - 5:00 PM</p>
+                <p>Mon - Sun: 10:00 AM - 9:00 PM</p>
+                <p>(Open Seven Days A Week)</p>
               </div>
             </li>
           </ul>
@@ -161,10 +161,10 @@ const Footer = () => {
 
       {/* Copyright Line */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-light text-white/40">
-        <p>&copy; {currentYear} L'Élite Aura Salon. All Rights Reserved.</p>
+        <p>&copy; {currentYear} Barça 10 Salon. All Rights Reserved.</p>
         <div className="flex gap-6">
-          <Link to="/contact" className="hover:text-primary transition-colors duration-300">Privacy Policy</Link>
-          <Link to="/contact" className="hover:text-primary transition-colors duration-300">Terms of Service</Link>
+          <Link to="/privacy" className="hover:text-primary transition-colors duration-300">Privacy Policy</Link>
+          <Link to="/terms" className="hover:text-primary transition-colors duration-300">Terms of Service</Link>
           <Link to="/contact" className="hover:text-primary transition-colors duration-300">Sitemap</Link>
         </div>
       </div>
