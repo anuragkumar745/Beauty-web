@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiCamera, FiAlertCircle, FiRefreshCw, FiSliders, FiHelpCircle } from 'react-icons/fi';
 import Button from '../components/Button';
