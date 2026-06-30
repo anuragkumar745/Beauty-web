@@ -49,9 +49,9 @@ const Gallery = () => {
   const gallerySchema = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
-    "name": "L'Élite Aura Gallery",
-    "description": "Browse luxury bridal makeup, modern hair transformations, custom nail art and premium salon interiors.",
-    "url": "https://eliteaura.com/gallery"
+    "name": "Volume Salon Gallery",
+    "description": "Browse luxury bridal makeup, modern hair transformations, custom nail art and premium salon interiors at Volume Salon in Ranchi.",
+    "url": "https://volumesalonranchi.app/gallery"
   };
 
   return (
