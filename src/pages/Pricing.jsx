@@ -63,19 +63,6 @@ const Pricing = () => {
       ],
       tag: "Daily Glam",
       gradient: false
-    },
-    {
-      title: "Viking Tattoo Combo",
-      subtitle: "Premium body art & piercing package",
-      price: "5,000",
-      features: [
-        "Custom 3-inch Body Tattoo (Black & Grey)",
-        "Sterile Ear or Nose Piercing",
-        "Premium Titanium/Hypoallergenic Starter Studs",
-        "Professional aftercare kit & consultation"
-      ],
-      tag: "Viking Special",
-      gradient: true
     }
   ];
 
@@ -102,16 +89,12 @@ const Pricing = () => {
       { name: "Luxury Gel Extensions & Nail Art", price: "2,800", duration: "90 mins" },
       { name: "Royal Pedicure & Manicure Spa", price: "3,000", duration: "80 mins" },
       { name: "Bridal & Designer Mehendi", price: "4,000", duration: "120 mins" }
-    ]},
-    { category: "Tattoo & Piercing Artistry (Viking)", items: [
-      { name: "Custom Body Tattoo", price: "3,000 onwards", duration: "Varies" },
-      { name: "Safe Piercing Session", price: "1,500", duration: "30 mins" }
     ]}
   ];
 
   const memberships = [
     {
-      title: "Gold Barça Member",
+      title: "Gold Volume Member",
       cost: "15,000",
       validity: "12 Months Validity",
       benefits: [
@@ -122,7 +105,7 @@ const Pricing = () => {
       ]
     },
     {
-      title: "Platinum Barça Elite Club",
+      title: "Platinum Volume Elite Club",
       cost: "30,000",
       validity: "12 Months Validity",
       benefits: [
@@ -136,20 +119,20 @@ const Pricing = () => {
 
   const discounts = [
     { title: "Festive Radiance Offer", desc: "Enjoy flat 15% off on all Combo Packages during the wedding season.", code: "FESTIVE15" },
-    { title: "First-Time Guest Offer", desc: "Get a complimentary blowdry or skin clean-up on your first booking above ₹3,000.", code: "BARCA1ST" }
+    { title: "First-Time Guest Offer", desc: "Get a complimentary blowdry or skin clean-up on your first booking above ₹3,000.", code: "VOLUME1ST" }
   ];
 
   const pricingSchema = {
     "@context": "https://schema.org",
     "@type": "PriceSpecification",
-    "name": "Barça 10 Salon Service Rates & Packages",
-    "description": "Premium service prices, combo wedding packages, and gold/platinum memberships at Samastipur's best salon.",
+    "name": "Volume Salon Service Rates & Packages",
+    "description": "Premium service prices, combo beauty packages, and gold/platinum memberships at Ranchi's best salon.",
     "priceCurrency": "INR"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="Pricing Packages & Offers" description="View Barça 10 Salon pricing list. Bridal packages, combo spa offers, hair treatments, custom body art by Viking Tattoos, and exclusive memberships." schema={pricingSchema} />
+      <SEO title="Pricing Packages & Offers" description="View Volume Salon pricing list. Bridal packages, combo spa offers, hair treatments, and exclusive memberships." schema={pricingSchema} />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}

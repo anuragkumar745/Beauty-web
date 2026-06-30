@@ -41,9 +41,6 @@ const Services = () => {
     } else if (category === 'Nails') {
       specs.difficulty = 'Detailed Craftsmanship';
       specs.benefits = 'Shatter-proof protective overlays, customized hand art patterns, and long-wear gloss protection.';
-    } else if (category === 'Tattoos') {
-      specs.difficulty = 'Master Sterile Ink';
-      specs.benefits = 'Bespoke custom designs, clinical autoclaved equipment, and precision skin pigmentation.';
     }
     return specs;
   };
@@ -58,14 +55,14 @@ const Services = () => {
     "serviceType": "Beauty Parlor Services",
     "provider": {
       "@type": "BeautySalon",
-      "name": "Barça 10 Salon",
-      "image": "https://barca10salon.com/assets/hero_bg.jpg",
+      "name": "Volume Salon",
+      "image": "https://volumesalonranchi.app/assets/hero_bg.jpg",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1st Floor, No. 205, Ghosh Ln, Gudari Bazar",
-        "addressLocality": "Samastipur",
-        "addressRegion": "Bihar",
-        "postalCode": "848101",
+        "streetAddress": "1st Floor, Plot No 528, Sarna Toli, above Gauri brides",
+        "addressLocality": "Ranchi",
+        "addressRegion": "Jharkhand",
+        "postalCode": "834008",
         "addressCountry": "IN"
       }
     },

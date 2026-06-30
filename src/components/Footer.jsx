@@ -43,10 +43,10 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <Link to="/" className="flex flex-col">
             <span className="font-serif text-2xl font-bold tracking-widest text-primary gold-text-gradient uppercase">
-              Barça 10 Salon
+              Volume Salon
             </span>
             <span className="text-[9px] tracking-[0.3em] text-white uppercase mt-0.5 font-light">
-              Spa, Nails & Makeup Studio
+              Best Hair & Beauty Salon
             </span>
           </Link>
           <p className="text-white/60 text-xs md:text-sm leading-relaxed font-light">
@@ -127,10 +127,10 @@ const Footer = () => {
             <li className="flex gap-3 items-start">
               <FiMapPin className="text-primary text-lg shrink-0 mt-0.5" />
               <div>
-                <p>1st Floor, No. 205, Ghosh Ln, Gudari Bazar,</p>
-                <p>Ward No - 17, Samastipur, Bihar - 848101</p>
+                <p>1st Floor, Plot No 528, Sarna Toli,</p>
+                <p>above Gauri brides, Ranchi, Jharkhand - 834008</p>
                 <a 
-                  href="https://maps.google.com/?q=Barca10+Salon+Gudari+Bazar+Samastipur+Bihar+848101" 
+                  href="https://maps.google.com/?q=Volume+Salon+above+Gauri+brides+Sarna+Toli+Ranchi" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-primary hover:text-primary-light transition-colors duration-300 text-xs mt-1 block uppercase tracking-wider font-semibold cursor-pointer"
@@ -141,11 +141,11 @@ const Footer = () => {
             </li>
             <li className="flex gap-3 items-center">
               <FiPhone className="text-primary text-lg" />
-              <a href="tel:+919654399680" className="hover:text-primary transition-colors duration-300 cursor-pointer">+91 96543 99680</a>
+              <a href="tel:+918434300344" className="hover:text-primary transition-colors duration-300 cursor-pointer">+91 84343 00344</a>
             </li>
             <li className="flex gap-3 items-center">
               <FiMail className="text-primary text-lg" />
-              <a href="mailto:info@barca10salon.com" className="hover:text-primary transition-colors duration-300 cursor-pointer">info@barca10salon.com</a>
+              <a href="mailto:info@volumesalonranchi.com" className="hover:text-primary transition-colors duration-300 cursor-pointer">info@volumesalonranchi.com</a>
             </li>
             <li className="flex gap-3 items-start">
               <FiClock className="text-primary text-lg shrink-0 mt-0.5" />
@@ -161,7 +161,7 @@ const Footer = () => {
 
       {/* Copyright Line */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-light text-white/40">
-        <p>&copy; {currentYear} Barça 10 Salon. All Rights Reserved.</p>
+        <p>&copy; {currentYear} Volume Salon. All Rights Reserved.</p>
         <div className="flex gap-6">
           <Link to="/privacy" className="hover:text-primary transition-colors duration-300">Privacy Policy</Link>
           <Link to="/terms" className="hover:text-primary transition-colors duration-300">Terms of Service</Link>

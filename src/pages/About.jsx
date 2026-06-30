@@ -11,10 +11,10 @@ import hairSalon from '../assets/hair_salon.jpg';
 
 const About = () => {
   const stats = [
-    { value: "22+", label: "Years of Experience" },
-    { value: "25k+", label: "Happy Clients" },
-    { value: "40+", label: "Luxury Treatments" },
-    { value: "4.8", label: "Google Rating" }
+    { value: "5.0", label: "Google Rating" },
+    { value: "31+", label: "Five-Star Reviews" },
+    { value: "10+", label: "Expert Stylists" },
+    { value: "40+", label: "Luxury Treatments" }
   ];
 
   const pillars = [
@@ -25,7 +25,7 @@ const About = () => {
     },
     {
       title: "Our Vision",
-      desc: "To remain the standard-bearer for luxury salon and spa experiences in Samastipur, Bihar, continuously refining our skills with global beauty innovations and sustainable practices.",
+      desc: "To remain the standard-bearer for luxury salon and spa experiences in Ranchi, Jharkhand, continuously refining our skills with global beauty innovations and sustainable practices.",
       icon: <FiEye className="text-3xl text-primary" />
     },
     {
@@ -38,7 +38,7 @@ const About = () => {
   const advantages = [
     {
       title: "Globally Certified Artisans",
-      desc: "Our stylists are trained at leading national and international academies, bringing high-fashion beauty directly to Bihar.",
+      desc: "Our stylists are trained at leading national academies, bringing high-fashion beauty directly to Jharkhand.",
       icon: <FiAward />
     },
     {
@@ -61,14 +61,14 @@ const About = () => {
   const aboutSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About Barça 10 Salon - Luxury Spa, Nails & Makeup Studio",
-    "description": "Learn about our founding history since 2004, mission, vision, and why we are Samastipur's preferred luxury beauty salon.",
-    "url": "https://barca10salon.com/about"
+    "name": "About Volume Salon - Best Hair & Beauty Salon in Ranchi",
+    "description": "Learn about our founding history, mission, vision, and why we are Ranchi's preferred luxury hair and beauty salon.",
+    "url": "https://volumesalonranchi.app/about"
   };
 
   return (
     <div className="pt-28 pb-20 bg-champagne dark:bg-luxury-black transition-colors duration-300 min-h-screen text-luxury-black dark:text-white">
-      <SEO title="About Us" description="Discover Barça 10 Salon's philosophy, story, and dedication to luxury beauty treatments since 2004." schema={aboutSchema} />
+      <SEO title="About Us" description="Discover Volume Salon's philosophy, story, and dedication to luxury beauty treatments in Ranchi." schema={aboutSchema} />
 
       {/* Mini Hero Banner */}
       <section className="relative py-20 md:py-28 overflow-hidden bg-luxury-black text-white border-b border-primary/20">
@@ -95,7 +95,7 @@ const About = () => {
             transition={{ delay: 0.4 }}
             className="max-w-2xl text-white/70 text-xs md:text-base font-light leading-relaxed tracking-wide"
           >
-            Since 2004, Barça 10 Salon has served as Samastipur's premier aesthetic sanctuary, fusing signature salon artistry, nail couture, and organic spa wellness.
+            Volume Salon serves as Ranchi's premier aesthetic sanctuary, fusing signature salon artistry, nail couture, and organic spa wellness.
           </motion.p>
         </div>
       </section>
@@ -109,10 +109,10 @@ const About = () => {
             Crafting Grace and Luxury
           </h2>
           <p className="text-luxury-gray dark:text-white/80 text-xs md:text-sm font-light leading-relaxed">
-            Barça 10 Salon was founded in Samastipur, Bihar with a singular ambition: to elevate salon services from routine grooming to a luxurious ritual of self-love. What started as a boutique styling station in Gudari Bazar has grown into a highly trusted, women-owned sanctuary for luxury skincare, bridal makeovers, custom nail chemistry, and professional body art.
+            Volume Salon was founded in Ranchi, Jharkhand with a singular ambition: to elevate salon services from routine grooming to a luxurious ritual of self-love. What started as a boutique styling station has grown into a highly trusted sanctuary for luxury skincare, bridal makeovers, and custom nail chemistry.
           </p>
           <p className="text-luxury-light-gray dark:text-white/60 text-xs md:text-sm font-light leading-relaxed">
-            We reject the assembly-line approach. Every client who walks through our doors is treated to a personalized consult. We study your facial anatomy, hair texture, skin undertones, and lifestyle to create styles that reflect your identity. Our team regularly participates in national and international beauty masterclasses to bring the latest global trends directly to Samastipur. We also host Viking Tattoos, our premium in-house body art and piercing studio.
+            We reject the assembly-line approach. Every client who walks through our doors is treated to a personalized consult. We study your facial anatomy, hair texture, skin undertones, and lifestyle to create styles that reflect your identity. Our team regularly participates in national and international beauty masterclasses to bring the latest global trends directly to Ranchi. Experience pure style transformations custom-fitted to your identity.
           </p>
 
           {/* Stats Grid */}
@@ -204,13 +204,13 @@ const About = () => {
             <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">Ready to feel pampered?</span>
             <h2 className="font-serif text-3xl md:text-5xl font-bold uppercase tracking-wide">Experience Pure Serenity</h2>
             <p className="text-white/70 text-xs md:text-sm font-light leading-relaxed">
-              Step into Samastipur's finest beauty parlour today. Connect with us to reserve a premium bridal package, hair chemistry consultation, or custom skin analysis.
+              Step into Ranchi's finest beauty parlour today. Connect with us to reserve a premium bridal package, hair chemistry consultation, or custom skin analysis.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
               <Link to="/booking" className="w-full sm:w-auto">
                 <Button variant="primary" className="w-full sm:w-auto">Book An Appointment</Button>
               </Link>
-              <a href="https://wa.me/919654399680" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <a href="https://wa.me/918434300344" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 <Button variant="secondary" className="w-full sm:w-auto">WhatsApp Consultation</Button>
               </a>
             </div>

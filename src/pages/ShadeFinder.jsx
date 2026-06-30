@@ -99,9 +99,9 @@ const ShadeFinder = () => {
   const shadeSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Virtual Shade Finder - Barça 10 Salon",
-    "description": "Try on premium lipsticks and hair colors virtually using our interactive camera overlay Shade Finder.",
-    "url": "https://barca10salon.com/shade-finder"
+    "name": "Virtual Shade Finder - Volume Salon",
+    "description": "Try on premium lipsticks and hair colors virtually using our interactive camera overlay Shade Finder at Volume Salon in Ranchi.",
+    "url": "https://volumesalonranchi.app/shade-finder"
   };
 
   return (

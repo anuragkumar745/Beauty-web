@@ -145,25 +145,7 @@ export const services = [
     duration: '120 mins',
     description: 'Intricate, custom bridal henna artwork applied on hands and feet. Also available in Arabic and contemporary designs.',
     image: 'https://images.unsplash.com/photo-1582233479366-6d38bc390a08?w=600'
-  },
-  {
-    id: 'viking-custom-tattoo',
-    name: 'Custom Body Tattoo',
-    category: 'Tattoos',
-    price: '3,000 onwards',
-    duration: 'Varies',
-    description: 'Bespoke custom tattooing by our in-house body art partners at Viking Tattoos. Sterile, single-use needle sets and medical-grade hypoallergenic pigments.',
-    image: 'https://images.unsplash.com/photo-1590246814883-57f511e76523?w=600'
-  },
-  {
-    id: 'viking-body-piercing',
-    name: 'Safe Piercing Session',
-    category: 'Tattoos',
-    price: '1,500',
-    duration: '30 mins',
-    description: 'Sterile ear, nose, or navel piercing performed with aseptic techniques and premium titanium/hypoallergenic starter studs.',
-    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600'
   }
 ];
 
-export const categories = ['All', 'Makeup', 'Hair', 'Skin', 'Nails', 'Grooming', 'Tattoos'];
+export const categories = ['All', 'Makeup', 'Hair', 'Skin', 'Nails', 'Grooming'];

@@ -96,10 +96,10 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex flex-col">
           <span className={`font-serif text-xl md:text-2xl font-bold tracking-widest uppercase transition-colors duration-300 ${colors.logo}`}>
-            Barça 10 Salon
+            Volume Salon
           </span>
           <span className={`text-[9px] tracking-[0.3em] uppercase mt-0.5 font-light transition-colors duration-300 ${colors.logoSub}`}>
-            Spa, Nails & Makeup Studio
+            Best Hair & Beauty Salon
           </span>
         </Link>
 

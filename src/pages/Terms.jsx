@@ -6,9 +6,9 @@ const Terms = () => {
   const termsSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Terms of Service - Barça 10 Salon",
-    "description": "Terms and conditions of service at Barça 10 Salon.",
-    "url": "https://barca10salon.com/terms"
+    "name": "Terms of Service - Volume Salon",
+    "description": "Terms and conditions of service at Volume Salon.",
+    "url": "https://volumesalonranchi.app/terms"
   };
 
   return (
@@ -29,7 +29,7 @@ const Terms = () => {
             <p><strong>Effective Date: June 30, 2026</strong></p>
             
             <p>
-              Welcome to Barça 10 Salon. By accessing our website or utilizing our booking portals and salon services, you agree to comply with and be bound by the following Terms of Service.
+              Welcome to Volume Salon. By accessing our website or utilizing our booking portals and salon services, you agree to comply with and be bound by the following Terms of Service.
             </p>
 
             <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">1. Appointment Booking & Cancellations</h2>
@@ -44,33 +44,28 @@ const Terms = () => {
 
             <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">3. Pricing & Modifications</h2>
             <p>
-              All prices listed on our website, service menus, or package brochures are subject to change. Rates are customized based on hair length, specific skin product formulations, or complexity of custom body art requested from Viking Tattoos. Estimates will always be aligned during your initial personal consultation.
+              All prices listed on our website, service menus, or package brochures are subject to change. Rates are customized based on hair length, specific skin product formulations, or complexity of custom nail artwork. Estimates will always be aligned during your initial personal consultation.
             </p>
 
             <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">4. Client Health & Safety Protocols</h2>
             <p>
-              Please inform your beauty artist or esthetician of any allergies, skin sensitivities, or medical conditions prior to treatment. Barça 10 Salon and Viking Tattoos enforce medical-grade tool sterilization, autoclaving, and single-use hygienic tools. However, individual product reactions are subject to your personal physiology.
+              Please inform your beauty artist or esthetician of any allergies, skin sensitivities, or medical conditions prior to treatment. Volume Salon enforces medical-grade tool sterilization, autoclaving, and single-use hygienic tools. However, individual product reactions are subject to your personal physiology.
             </p>
 
-            <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">5. Body Art & Piercings (Viking Tattoos)</h2>
+            <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">5. Limitation of Liability</h2>
             <p>
-              Body tattooing and piercing services are governed by strict age regulations. Clients must be 18 years or older (or accompanied by a legal guardian with written consent) and sign our sterile procedure waivers before body art operations commence.
+              Volume Salon is not liable for any personal belongings misplaced within our salon facility. We strive to deliver the highest quality aesthetic service, but we are not responsible for skin sensitivity or chemical reactions arising from undisclosed allergies.
             </p>
 
-            <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">6. Limitation of Liability</h2>
-            <p>
-              Barça 10 Salon is not liable for any personal belongings misplaced within our salon facility. We strive to deliver the highest quality aesthetic service, but we are not responsible for skin sensitivity or chemical reactions arising from undisclosed allergies.
-            </p>
-
-            <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">7. Contact Information</h2>
+            <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">6. Contact Information</h2>
             <p>
               If you have any questions about these Terms, please reach us at:
               <br />
-              <strong>Barça 10 Salon</strong>
+              <strong>Volume Salon</strong>
               <br />
-              1st Floor, No. 205, Ghosh Ln, Gudari Bazar, Samastipur, Bihar - 848101
+              1st Floor, Plot No 528, Sarna Toli, Hatma, Ranchi, Jharkhand - 834008
               <br />
-              Email: info@barca10salon.com
+              Email: info@volumesalonranchi.com
             </p>
           </div>
         </motion.div>

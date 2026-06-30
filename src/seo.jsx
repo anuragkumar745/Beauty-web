@@ -5,15 +5,15 @@ const SEO = ({
   title, 
   description, 
   keywords, 
-  url = 'https://barca10salon.com', 
-  image = 'https://barca10salon.com/assets/hero_bg.jpg',
+  url = 'https://volumesalonranchi.app', 
+  image = 'https://volumesalonranchi.app/assets/hero_bg.jpg',
   schema 
 }) => {
-  const defaultTitle = "Barça 10 Salon | Spa, Nails & Makeup Studio Samastipur, Bihar";
-  const defaultDescription = "Indulge in premium beauty treatments at Barça 10 Salon in Samastipur. Established in 2004. Offering expert bridal makeup, advanced hair design, nail extensions, spa therapies, and custom Viking Tattoos. 4.8★ rated with 2,185+ reviews.";
-  const defaultKeywords = "Best Beauty Parlor in Samastipur, Best Salon in Samastipur, Ladies Salon in Samastipur, Bridal Makeup Artist Samastipur, Hair Salon Samastipur, Viking Tattoos Samastipur, Nail Art Salon Samastipur, Beauty Parlour Samastipur, Gudari Bazar Salon";
+  const defaultTitle = "Volume Salon | Best Hair & Beauty Salon in Ranchi, Jharkhand";
+  const defaultDescription = "Indulge in premium beauty treatments at Volume Salon in Ranchi, Jharkhand. Offering expert bridal makeup, advanced hair styling, nail extensions, spa therapies, and skincare treatments. 5.0★ rated with 31+ reviews.";
+  const defaultKeywords = "Best Beauty Parlor in Ranchi, Best Salon in Ranchi, Ladies Salon in Ranchi, Bridal Makeup Artist Ranchi, Hair Salon Ranchi, Nail Art Salon Ranchi, Beauty Parlour Ranchi, Sarna Toli Hatma Ranchi Salon";
 
-  const currentTitle = title ? `${title} | Barça 10 Salon` : defaultTitle;
+  const currentTitle = title ? `${title} | Volume Salon` : defaultTitle;
   const currentDescription = description || defaultDescription;
   const currentKeywords = keywords || defaultKeywords;
 

@@ -6,9 +6,9 @@ const Privacy = () => {
   const privacySchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Privacy Policy - Barça 10 Salon",
-    "description": "Privacy policy and client data protection guidelines at Barça 10 Salon.",
-    "url": "https://barca10salon.com/privacy"
+    "name": "Privacy Policy - Volume Salon",
+    "description": "Privacy policy and client data protection guidelines at Volume Salon.",
+    "url": "https://volumesalonranchi.app/privacy"
   };
 
   return (
@@ -29,7 +29,7 @@ const Privacy = () => {
             <p><strong>Effective Date: June 30, 2026</strong></p>
             
             <p>
-              At Barça 10 Salon, we prioritize the privacy and security of our guests' personal data. This Privacy Policy details how we collect, use, and protect your information when you visit our salon or book appointments through our website.
+              At Volume Salon, we prioritize the privacy and security of our guests' personal data. This Privacy Policy details how we collect, use, and protect your information when you visit our salon or book appointments through our website.
             </p>
 
             <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">1. Information We Collect</h2>
@@ -57,18 +57,18 @@ const Privacy = () => {
 
             <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">5. Your Rights</h2>
             <p>
-              You have the right to request a copy of the personal records we hold, request corrections to incorrect data, or request the deletion of your scheduling history. Contact us at <strong>info@barca10salon.com</strong> to submit your request.
+              You have the right to request a copy of the personal records we hold, request corrections to incorrect data, or request the deletion of your scheduling history. Contact us at <strong>info@volumesalonranchi.com</strong> to submit your request.
             </p>
 
             <h2 className="font-serif text-lg font-bold text-luxury-black dark:text-white mt-8 border-b border-primary/10 pb-2">6. Contacting Us</h2>
             <p>
               For questions regarding this policy, please reach us at:
               <br />
-              <strong>Barça 10 Salon</strong>
+              <strong>Volume Salon</strong>
               <br />
-              1st Floor, No. 205, Ghosh Ln, Gudari Bazar, Samastipur, Bihar - 848101
+              1st Floor, Plot No 528, Sarna Toli, Hatma, Ranchi, Jharkhand - 834008
               <br />
-              Phone: +91 96543 99680
+              Phone: +91 84343 00344
             </p>
           </div>
         </motion.div>
