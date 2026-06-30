@@ -34,6 +34,7 @@ const Navbar = () => {
     { name: 'Services', path: '/services' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Pricing', path: '/pricing' },
+    { name: 'Shade Finder', path: '/shade-finder' },
     { name: 'Team', path: '/team' },
     { name: 'Contact', path: '/contact' }
   ];

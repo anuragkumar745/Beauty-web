@@ -20,6 +20,7 @@ import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
+import ShadeFinder from './pages/ShadeFinder';
 
 // Scroll to top on route change helper
 const ScrollToTop = () => {
@@ -67,6 +68,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/shade-finder" element={<ShadeFinder />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
