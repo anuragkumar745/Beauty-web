@@ -4,7 +4,7 @@ import { FiClock } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import Button from './Button';
 
-const ServiceCard = ({ name, price, duration, description, image, category }) => {
+const ServiceCard = ({ id, name, price, duration, description, image, category, onCompareToggle, isStagedForCompare }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -25,6 +25,23 @@ const ServiceCard = ({ name, price, duration, description, image, category }) =>
           <span className="absolute top-4 left-4 bg-luxury-black/80 backdrop-blur-sm text-primary border border-primary/20 px-3 py-1 rounded-full text-[10px] uppercase tracking-widest font-semibold">
             {category}
           </span>
+        )}
+        
+        {onCompareToggle && (
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onCompareToggle();
+            }}
+            className={`absolute top-4 right-4 backdrop-blur-sm border px-3 py-1 rounded-full text-[9px] uppercase tracking-widest font-bold shadow-md transition-all duration-300 cursor-pointer ${
+              isStagedForCompare
+                ? 'bg-primary text-luxury-black border-transparent scale-105'
+                : 'bg-luxury-black/60 text-white border-white/20 hover:border-primary hover:text-primary'
+            }`}
+          >
+            {isStagedForCompare ? 'Comparing' : '+ Compare'}
+          </button>
         )}
       </div>
 
