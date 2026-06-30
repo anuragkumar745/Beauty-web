@@ -415,7 +415,79 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 8. FAQ ACCORDION */}
+      {/* 8. LUXURY BLOG PREVIEW */}
+      <section className="py-24 bg-white dark:bg-luxury-dark transition-colors duration-300 border-t border-primary/10">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <div className="text-center mb-16">
+            <span className="text-primary text-xs uppercase tracking-[0.3em] font-semibold">Editorial</span>
+            <h2 className="font-serif text-3xl md:text-5xl font-bold mt-2">The Barça 10 Journal</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Blog Post 1 */}
+            <motion.div
+              whileHover={{ y: -8 }}
+              className="bg-champagne dark:bg-luxury-black/50 border border-primary/10 dark:border-primary/20 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+            >
+              <div className="aspect-[16/10] overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600" alt="Bridal makeup trends" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+              <div className="p-6 flex-grow flex flex-col justify-between">
+                <div>
+                  <span className="text-primary text-[9px] uppercase tracking-widest font-bold">Bridal Trends</span>
+                  <h3 className="font-serif text-base md:text-lg font-bold mt-2 mb-3">HD vs. Airbrush: Which Bridal Look is Perfect For You?</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Discover the key structural differences between High Definition and Airbrush makeup to select your dream wedding glow.</p>
+                </div>
+                <Link to="/booking" className="text-primary hover:text-primary-dark transition-colors text-xs font-semibold uppercase tracking-wider flex items-center gap-1">
+                  Read Article &rarr;
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Blog Post 2 */}
+            <motion.div
+              whileHover={{ y: -8 }}
+              className="bg-champagne dark:bg-luxury-black/50 border border-primary/10 dark:border-primary/20 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+            >
+              <div className="aspect-[16/10] overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600" alt="Hair health treatments" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+              <div className="p-6 flex-grow flex flex-col justify-between">
+                <div>
+                  <span className="text-primary text-[9px] uppercase tracking-widest font-bold">Hair Science</span>
+                  <h3 className="font-serif text-base md:text-lg font-bold mt-2 mb-3">The Science of Keratin: Keeping Frizz at Bay</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">Uncover how advanced protein restoration fills damaged hair shafts to deliver long-lasting silken shine.</p>
+                </div>
+                <Link to="/booking" className="text-primary hover:text-primary-dark transition-colors text-xs font-semibold uppercase tracking-wider flex items-center gap-1">
+                  Read Article &rarr;
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Blog Post 3 */}
+            <motion.div
+              whileHover={{ y: -8 }}
+              className="bg-champagne dark:bg-luxury-black/50 border border-primary/10 dark:border-primary/20 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+            >
+              <div className="aspect-[16/10] overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600" alt="Nail extensions artwork" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+              <div className="p-6 flex-grow flex flex-col justify-between">
+                <div>
+                  <span className="text-primary text-[9px] uppercase tracking-widest font-bold">Nail Couture</span>
+                  <h3 className="font-serif text-base md:text-lg font-bold mt-2 mb-3">Chrome Gel Extensions: Summer's Hottest Glam</h3>
+                  <p className="text-luxury-light-gray dark:text-white/50 text-xs font-light leading-relaxed mb-6">From hand-painted fine gems to metallic overlay designs, see the nail art looks taking over this season.</p>
+                </div>
+                <Link to="/booking" className="text-primary hover:text-primary-dark transition-colors text-xs font-semibold uppercase tracking-wider flex items-center gap-1">
+                  Read Article &rarr;
+                </Link>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* 9. FAQ ACCORDION */}
       <section className="py-24 bg-champagne dark:bg-luxury-black transition-colors duration-300">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">

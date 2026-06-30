@@ -1,9 +1,14 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { motion, useScroll, useSpring } from 'framer-motion';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingActions from './components/FloatingActions';
+import Preloader from './components/Preloader';
+import CustomCursor from './components/CustomCursor';
+import CookieBanner from './components/CookieBanner';
+import OfferToast from './components/OfferToast';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -28,12 +33,28 @@ const ScrollToTop = () => {
 };
 
 function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+
   return (
     <ThemeProvider>
+      <Preloader />
+      <CustomCursor />
       <BrowserRouter>
         <ScrollToTop />
         <div className="flex flex-col min-h-screen bg-champagne dark:bg-luxury-black text-luxury-black dark:text-white antialiased selection:bg-primary selection:text-luxury-black transition-colors duration-300">
+          {/* Top Scroll Progress Indicator */}
+          <motion.div
+            className="fixed top-0 left-0 right-0 h-1 bg-primary origin-left z-[60]"
+            style={{ scaleX }}
+          />
+
           <Navbar />
+          
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
@@ -49,8 +70,11 @@ function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
+          
           <Footer />
           <FloatingActions />
+          <CookieBanner />
+          <OfferToast />
         </div>
       </BrowserRouter>
     </ThemeProvider>
